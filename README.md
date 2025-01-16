@@ -7,5 +7,5 @@ En el entorno actual, los propietarios de vehículos a menudo enfrentan dificult
 
 Para abordar este problema, se propone una aplicación de control de vehículos que permitirá a los usuarios registrar y gestionar de manera eficiente los datos de los vehículos que poseen. Además, la aplicación ofrecerá funcionalidades para mantener un historial detallado de las reparaciones y mantenimientos realizados a los vehículos, permitiendo al usuario conocer el estado de su vehículo en cualquier momento y optimizar los costos de mantenimiento.
 
-#### análisis de requerimientos
+### análisis de requerimientos
 la aplicación de control de vehículos se centra en proporcionar al usuario una herramienta que le permita registrar, gestionar y consultar la información de sus vehículos, incluyendo datos como marca, modelo, matrícula y tipo de combustible, así como un historial de mantenimientos y reparaciones, detallando fechas, descripciones y costos. La aplicación debe ser fácil de usar, con una interfaz intuitiva, y permitir la generación de reportes de costos asociados.
