@@ -10,13 +10,21 @@ Para abordar este problema, se propone una aplicación de control de vehículos 
 ### El sistema debe cumplir las siguientes funcionalidades principales:
 #### Gestor de Alumnos:
 Registro de nuevos alumnos.
+
 Modificación de información de alumnos existentes.
+
 Eliminación segura de registros.
+
 Visualización y consulta de datos.
+
 #### Interfaz Gráfica:
 Diseño intuitivo basado en JFrame.
+
 Validaciones para evitar entradas incorrectas o datos incompletos.
+
 #### Acceso a Base de Datos:
 Conexión a una base de datos MySQL.
+
 Implementación de operaciones CRUD.
+
 ### Diagrama del Modelo Lógico
