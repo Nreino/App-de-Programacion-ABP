@@ -9,13 +9,10 @@ Para abordar este problema, se propone una aplicación de control de vehículos 
 ### análisis de requerimientos
 ### El sistema debe cumplir las siguientes funcionalidades principales:
 #### Gestor de Alumnos:
-Registro de nuevos alumnos.
-
-Modificación de información de alumnos existentes.
-
-Eliminación segura de registros.
-
-Visualización y consulta de datos.
+- Registro de nuevos alumnos.
+- Modificación de información de alumnos existentes.
+- Eliminación segura de registros.
+- Visualización y consulta de datos.
 
 #### Interfaz Gráfica:
 Diseño intuitivo basado en JFrame.
