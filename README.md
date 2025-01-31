@@ -7,7 +7,7 @@ La gestión eficiente de la información en instituciones educativas es fundamen
 Para abordar este problema, se propone una aplicación de control de vehículos que permitirá a los usuarios registrar y gestionar de manera eficiente los datos de los vehículos que poseen. Además, la aplicación ofrecerá funcionalidades para mantener un historial detallado de las reparaciones y mantenimientos realizados a los vehículos, permitiendo al usuario conocer el estado de su vehículo en cualquier momento y optimizar los costos de mantenimiento.
 
 ### análisis de requerimientos
-### El sistema debe cumplir las siguientes funcionalidades principales:
+#### El sistema debe cumplir las siguientes funcionalidades principales:
 #### Gestor de Alumnos:
 - Registro de nuevos alumnos.
 - Modificación de información de alumnos existentes.
@@ -15,13 +15,16 @@ Para abordar este problema, se propone una aplicación de control de vehículos 
 - Visualización y consulta de datos.
 
 #### Interfaz Gráfica:
-Diseño intuitivo basado en JFrame.
-
-Validaciones para evitar entradas incorrectas o datos incompletos.
+- Diseño intuitivo basado en JFrame.
+- Validaciones para evitar entradas incorrectas o datos incompletos.
 
 #### Acceso a Base de Datos:
-Conexión a una base de datos MySQL.
-
-Implementación de operaciones CRUD.
-
+- Conexión a una base de datos MySQL.
+- Implementación de operaciones CRUD.
 ### Diagrama del Modelo Lógico
+
+
+#### integrantes:
+Reino, Salavarria y Mantilla
+#### curso:
+2do Informática "A"
