@@ -32,6 +32,45 @@ Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el
 ### 🗂️ **Diagrama del Modelo Lógico**
 (Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.)
 
+###Descripción de las 
+
+### Validaciones
+Validaciones de campo vacios 
+Evitar la insercion de registros duplicados 
+
+### Acceso a Datos 
+La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion**. Las operaciones CRUDse implementan en la clase **Alumno**, que incluye:
+-**insertAlumno()** : Insertar un nuevo alumno. 
+-**mostrarAlumno()** : Muestra los alumnos registrados. 
+-**seleccionarAlumno()** : Selecciona un alumno para editar.
+-**modificarAlumno()** : Modifica un registro existente.
+-**eliminarAlumno()** : Eliminar un registro.
+
+###Subida del Proyecto a GitHub
+**Organizacion del Reprositorio**
+El repositorio debe contener la siguientes estructura:
+GIEE/
+├── src/
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### **Integrantes:**
 - **Reino**
 - **Salavarria**
@@ -39,4 +78,5 @@ Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el
 
 #### **Curso:**
 - 2do **Informática "A"**
+  
   
