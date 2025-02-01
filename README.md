@@ -1,6 +1,6 @@
 # 🚗 **Gestor de Ingresos y Egresos Escolares (GIEE)** 📊
 
-El sistema **Gestor de Ingresos y Egresos Escolares (GIEE)** está diseñado para **registrar** y **gestionar** la información relacionada con los vehículos de una institución educativa, incluyendo detalles de mantenimiento y reparaciones. Además, genera reportes sobre los costos asociados a estos servicios, todo de manera fácil e intuitiva para el usuario.
+*El sistema **Gestor de Ingresos y Egresos Escolares (GIEE)** está diseñado para **registrar** y **gestionar** la información relacionada con los vehículos de una institución educativa, incluyendo detalles de mantenimiento y reparaciones. Además, genera reportes sobre los costos asociados a estos servicios, todo de manera fácil e intuitiva para el usuario.*
 
 ## 📈 **Modelo Relacional**
 ![imagen (67)](https://github.com/user-attachments/assets/f9f37a34-890a-4848-be7c-639c1dc48f77)
