@@ -32,20 +32,25 @@ Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el
 ### 🗂️ **Diagrama del Modelo Lógico**
 (Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.)
 
-### 📋 **Descripción de las Tablas Principales**
+### 📝 **Tabla: alumnos**
 
--- Tabla: alumnos
-CREATE TABLE alumnos (
-    id INT AUTO_INCREMENT PRIMARY KEY,           -- Identificador único de cada alumno
-    nombres VARCHAR(100) NOT NULL,               -- Nombres del alumno
-    apellidos VARCHAR(100) NOT NULL,             -- Apellidos del alumno
-    cedula VARCHAR(10) UNIQUE NOT NULL,          -- Número único de identificación del alumno
-    correo VARCHAR(100) UNIQUE NOT NULL,         -- Correo electrónico único del alumno
-    fechaNacimiento DATE NOT NULL,               -- Fecha de nacimiento del alumno
-    ruta_id INT,                                 -- Identificador de la ruta asignada al alumno
-    CONSTRAINT fk_ruta FOREIGN KEY (ruta_id)     -- Relación con la tabla de rutas
-        REFERENCES rutas(id)                    -- Se asume que existe una tabla 'rutas' con un campo 'id' como clave primaria
-);
+| **Campo**         | **Tipo de Dato**    | **Descripción**                                              |
+|-------------------|---------------------|--------------------------------------------------------------|
+| `id`              | `INT AUTO_INCREMENT PRIMARY KEY` | Identificador único de cada alumno.                           |
+| `nombres`         | `VARCHAR(100)`      | Nombres del alumno.                                           |
+| `apellidos`       | `VARCHAR(100)`      | Apellidos del alumno.                                         |
+| `cedula`          | `VARCHAR(10)`       | Número único de identificación del alumno.                   |
+| `correo`          | `VARCHAR(100)`      | Correo electrónico único del alumno.                          |
+| `fechaNacimiento` | `DATE`              | Fecha de nacimiento del alumno.                               |
+| `ruta_id`         | `INT`               | Identificador de la ruta asignada al alumno.                  |
+
+**Restricciones:**
+- `id`: Clave primaria.
+- `cedula` y `correo`: Campos únicos.
+- `ruta_id`: Clave foránea que referencia a la tabla `rutas`.
+
+
+### Script del modelo físico 
 
 
 ### Validaciones
