@@ -9,7 +9,7 @@
 
 *La **gestión eficiente** de la información en las instituciones educativas es un factor crucial para asegurar una administración organizada, transparente y funcional. El sistema **Gestor de Ingresos y Egresos Escolares (GIEE)** tiene como objetivo **automatizar** el proceso de registro de alumnos y sus rutas escolares, además de proporcionar una plataforma para la administración efectiva de los datos de los estudiantes.*
 
-Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el registro y administración de estos, así como el seguimiento detallado de las reparaciones y mantenimientos realizados. Esto proporcionará a los usuarios un control más preciso sobre los costos operativos relacionados con los vehículos y optimizará la toma de decisiones en cuanto a mantenimiento y reparaciones.
+*Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el registro y administración de estos, así como el seguimiento detallado de las reparaciones y mantenimientos realizados. Esto proporcionará a los usuarios un control más preciso sobre los costos operativos relacionados con los vehículos y optimizará la toma de decisiones en cuanto a mantenimiento y reparaciones.*
 
 ### 📋 **Análisis de Requerimientos**
 
