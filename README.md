@@ -50,7 +50,22 @@ Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el
 - `ruta_id`: Clave foránea que referencia a la tabla `rutas`.
 
 
+
 ### Script del modelo físico 
+(PAOLA)
+
+
+### 🖥️ **Aplicación Java con JFrame**
+
+La aplicación cuenta con una interfaz gráfica desarrollada con **JFrame**, que permite a los usuarios realizar diversas operaciones relacionadas con los alumnos.
+
+#### **Diseño de Interfaz**
+
+La interfaz incluye las siguientes funcionalidades:
+
+- **Registro, modificación y eliminación de alumnos**: El usuario puede agregar nuevos alumnos, actualizar información existente y eliminar registros de alumnos.
+- **Visualización de los registros en una tabla**: Los datos de los alumnos se muestran de forma organizada en una tabla dentro de la interfaz.
+- **Selección y edición de alumnos**: El usuario puede seleccionar un alumno de la tabla y editar su información directamente desde la interfaz.
 
 
 ### Validaciones
