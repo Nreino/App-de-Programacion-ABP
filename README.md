@@ -34,8 +34,7 @@ Este sistema se enfoca también en la **gestión de vehículos**, permitiendo el
 
 ### 📋 **Descripción de las Tablas Principales**
 
-#### **Tabla: alumnos**
-```sql
+-- Tabla: alumnos
 CREATE TABLE alumnos (
     id INT AUTO_INCREMENT PRIMARY KEY,           -- Identificador único de cada alumno
     nombres VARCHAR(100) NOT NULL,               -- Nombres del alumno
@@ -46,7 +45,8 @@ CREATE TABLE alumnos (
     ruta_id INT,                                 -- Identificador de la ruta asignada al alumno
     CONSTRAINT fk_ruta FOREIGN KEY (ruta_id)     -- Relación con la tabla de rutas
         REFERENCES rutas(id)                    -- Se asume que existe una tabla 'rutas' con un campo 'id' como clave primaria
-); 
+);
+
 
 ### Validaciones
 Validaciones de campo vacios 
