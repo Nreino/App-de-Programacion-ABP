@@ -96,7 +96,7 @@ El repositorio debe contener la siguiente estructura:
 ├── README.md                             
 └── script.sql                            
 
-### Recursos Utilizados
+### **Recursos Utilizados:**
 - MySQL
 - Java Swing
 - JDBC
@@ -107,6 +107,6 @@ El repositorio debe contener la siguiente estructura:
 - **Mantilla**
 
 #### **Curso:**
-- 2do **Informática "A"**
+- **2do Informática "A"**
   
   
