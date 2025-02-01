@@ -74,11 +74,11 @@ Evitar la insercion de registros duplicados
 
 ### Acceso a Datos 
 La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion**. Las operaciones CRUDse implementan en la clase **Alumno**, que incluye:
--**insertAlumno()** : Insertar un nuevo alumno. 
--**mostrarAlumno()** : Muestra los alumnos registrados. 
--**seleccionarAlumno()** : Selecciona un alumno para editar.
--**modificarAlumno()** : Modifica un registro existente.
--**eliminarAlumno()** : Eliminar un registro.
+- **insertAlumno()** : Insertar un nuevo alumno. 
+- **mostrarAlumno()** : Muestra los alumnos registrados. 
+- **seleccionarAlumno()** : Selecciona un alumno para editar.
+- **modificarAlumno()** : Modifica un registro existente.
+- **eliminarAlumno()** : Eliminar un registro.
 
 ###Subida del Proyecto a GitHub
 **Organizacion del Reprositorio**
