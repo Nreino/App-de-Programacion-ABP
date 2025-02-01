@@ -17,16 +17,16 @@
 
 1. **Gestor de Alumnos**:
    - **Registro de nuevos alumnos**.
-   - **Modificación** de la información de alumnos existentes.
-   - **Eliminación segura** de registros.
-   - **Visualización** y consulta de datos de los alumnos.
+   - **Modificación** *de la información de alumnos existentes.*
+   - **Eliminación segura** *de registros.*
+   - **Visualización** *y consulta de datos de los alumnos.*
 
 2. **Interfaz Gráfica**:
-   - Diseño **intuitivo** basado en **JFrame**.
-   - Implementación de **validaciones** para evitar entradas incorrectas o incompletas.
+   - *Diseño **intuitivo** basado en* **JFrame**.
+   - *Implementación de **validaciones** para evitar entradas incorrectas o incompletas.*
 
 3. **Acceso a Base de Datos**:
-   - Conexión a una base de datos **MySQL**.
+   - *Conexión a una base de datos* **MySQL**.
    - Implementación de operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) para el manejo de los datos.
 
 ### 🗂️ **Diagrama del Modelo Lógico**
