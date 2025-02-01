@@ -1,30 +1,41 @@
 # Gestor de Ingresos y Egresos Escolares (GIEE)
-registra y gestiona la información de sus vehículos, incluyendo mantenimientos y reparaciones, y generar reportes de costos asociados, todo de manera fácil e intuitiva.
+
+El sistema **Gestor de Ingresos y Egresos Escolares (GIEE)** está diseñado para registrar y gestionar la información relacionada con los vehículos de una institución educativa, incluyendo detalles de mantenimiento y reparaciones. Además, genera reportes sobre los costos asociados a estos servicios, todo de manera fácil e intuitiva para el usuario.
+
 ## Modelo Relacional
 ![imagen (67)](https://github.com/user-attachments/assets/f9f37a34-890a-4848-be7c-639c1dc48f77)
-### contexto del problemas 
-La gestión eficiente de la información en instituciones educativas es fundamental para garantizar una administración organizada y transparente. El sistema Gestor de Ingresos y Egresos Escolares (GIEE) busca automatizar el registro de alumnos y sus rutas escolares, así como brindar una plataforma que permita la administración efectiva de datos de estudiantes.
-Para abordar este problema, se propone una aplicación de control de vehículos que permitirá a los usuarios registrar y gestionar de manera eficiente los datos de los vehículos que poseen. Además, la aplicación ofrecerá funcionalidades para mantener un historial detallado de las reparaciones y mantenimientos realizados a los vehículos, permitiendo al usuario conocer el estado de su vehículo en cualquier momento y optimizar los costos de mantenimiento.
 
-### análisis de requerimientos
-#### El sistema debe cumplir las siguientes funcionalidades principales:
-#### Gestor de Alumnos:
-- Registro de nuevos alumnos.
-- Modificación de información de alumnos existentes.
-- Eliminación segura de registros.
-- Visualización y consulta de datos.
+### Contexto del Problema
 
-#### Interfaz Gráfica:
-- Diseño intuitivo basado en JFrame.
-- Validaciones para evitar entradas incorrectas o datos incompletos.
+La gestión eficiente de la información en las instituciones educativas es un factor crucial para asegurar una administración organizada, transparente y funcional. El sistema **Gestor de Ingresos y Egresos Escolares (GIEE)** tiene como objetivo automatizar el proceso de registro de alumnos y sus rutas escolares, además de proporcionar una plataforma para la administración efectiva de los datos de los estudiantes. 
 
-#### Acceso a Base de Datos:
-- Conexión a una base de datos MySQL.
-- Implementación de operaciones CRUD.
+Este sistema se enfoca también en la gestión de vehículos, permitiendo el registro y administración de estos, así como el seguimiento detallado de las reparaciones y mantenimientos realizados. Esto proporcionará a los usuarios un control más preciso sobre los costos operativos relacionados con los vehículos y optimizará la toma de decisiones en cuanto a mantenimiento y reparaciones.
+
+### Análisis de Requerimientos
+
+#### Funcionalidades Principales del Sistema
+
+1. **Gestor de Alumnos**:
+   - Registro de nuevos alumnos.
+   - Modificación de la información de alumnos existentes.
+   - Eliminación segura de registros.
+   - Visualización y consulta de datos de los alumnos.
+
+2. **Interfaz Gráfica**:
+   - Diseño intuitivo basado en **JFrame**.
+   - Implementación de validaciones para evitar entradas incorrectas o incompletas.
+
+3. **Acceso a Base de Datos**:
+   - Conexión a una base de datos **MySQL**.
+   - Implementación de operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) para el manejo de los datos.
+
 ### Diagrama del Modelo Lógico
+(Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.)
 
+#### Integrantes:
+- **Reino**
+- **Salavarria**
+- **Mantilla**
 
-#### integrantes:
-Reino, Salavarria y Mantilla
-#### curso:
-2do Informática "A"
+#### Curso:
+- 2do **Informática "A"**
