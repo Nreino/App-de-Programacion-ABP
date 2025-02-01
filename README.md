@@ -85,16 +85,21 @@ La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion*
 **Organizacion del Reprositorio**
 El repositorio debe contener la siguiente estructura:
 
-- 
+mi-repositorio/
 ├── src/
-|   ├── CONEXION/
-|   ├── DAO/
-|   ├── GUI/
-|   └── proyecto4toparcial_paola_reino/
+│   ├── CONEXION/                         # Carpeta para la lógica de conexión a base de datos o APIs
+│   ├── DAO/                              # Carpeta para Data Access Object (DAO) o lógica de acceso a datos
+│   ├── GUI/                              # Carpeta para la interfaz gráfica (si aplica)
+│   └── proyecto4toparcial_paola_reino/   # Carpeta específica para tu proyecto (nombre único)
 ├── resources/
-|   └── diagrama_modelo_logico.png
-├── README.md
-└── script.sql
+│   └── diagrama_modelo_logico.png        # Imagen del diagrama lógico de la base de datos
+├── README.md                             # Archivo con la descripción del proyecto y cómo usarlo
+└── script.sql                            # Script de base de datos que puedes subir a GitHub
+
+
+
+
+
 
 
 
