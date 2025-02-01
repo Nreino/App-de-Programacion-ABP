@@ -85,6 +85,7 @@ La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion*
 **Organizacion del Reprositorio**
 El repositorio debe contener la siguiente estructura:
 
+- x 
 mi-repositorio/
 ├── src/
 │   ├── CONEXION/                         # Carpeta para la lógica de conexión a base de datos o APIs
