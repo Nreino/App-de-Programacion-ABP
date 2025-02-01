@@ -82,16 +82,19 @@ La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion*
 
 ###Subida del Proyecto a GitHub
 **Organizacion del Reprositorio**
+
 El repositorio debe contener la siguientes estructura:
 - 
-GIEE/
 ├── src/
-|
-|
-|
-|
-|
-|
+|   ├── CONEXION/
+|   ├── DAO/
+|   ├── GUI/
+|   └── proyecto4toparcial_paola_reino/
+├── resources/
+|   └── diagrama_modelo_logico.png
+├── README.md
+└── script.sql
+
 
 
 
