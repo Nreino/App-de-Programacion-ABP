@@ -96,24 +96,10 @@ El repositorio debe contener la siguiente estructura:
 ├── README.md                             
 └── script.sql                            
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Recursos Utilizados
+- MySQL
+- Java Swing
+- JDBC
 
 #### **Integrantes:**
 - **Reino**
