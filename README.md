@@ -80,7 +80,7 @@ La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion*
 - **modificarAlumno()** : Modifica un registro existente.
 - **eliminarAlumno()** : Eliminar un registro.
 
-###Subida del Proyecto a GitHub
+### Subida del Proyecto a GitHub
 
 **Organizacion del Reprositorio**
 El repositorio debe contener la siguiente estructura:
