@@ -53,9 +53,8 @@
 
 ---
 
-## 🔧 **Script del Modelo Físico**
-
-```sql
+## 🔧 Script del modelo físico 
+sql
 CREATE DATABASE escueladb;
 USE escueladb;
 
@@ -79,6 +78,55 @@ VALUES
 ('Juan Carlos', 'Sayay Morante', '0945466328', 'jeanc2008@gmail.com', '2008-12-24', 0),
 ('Xavier Fernando', 'Peñafiel López', '0954356729', 'xavie2008@gmail.com', '2008-04-23', 0),
 ('Miguel Angel', 'Suarez Calle', '0926567789', 'mian2008@gmail.com', '2008-01-01', 0);
+
+ALTER TABLE alumnos DROP INDEX correo;
+
+UPDATE alumnos 
+SET nombres = 'NuevoNombre', apellidos = 'NuevoApellido', cedula = '1234567890', correo = 'nuevoemail@gmail.com', fechaNacimiento = '2000-01-01' 
+WHERE id = 1;
+
+
+
+
+### 🖥️ **Aplicación Java con JFrame**
+
+La aplicación cuenta con una interfaz gráfica desarrollada con **JFrame**, que permite a los usuarios realizar diversas operaciones relacionadas con los alumnos.
+
+#### **Diseño de Interfaz**
+
+La interfaz incluye las siguientes funcionalidades:
+
+- **Registro, modificación y eliminación de alumnos**: El usuario puede agregar nuevos alumnos, actualizar información existente y eliminar registros de alumnos.
+- **Visualización de los registros en una tabla**: Los datos de los alumnos se muestran de forma organizada en una tabla dentro de la interfaz.
+- **Selección y edición de alumnos**: El usuario puede seleccionar un alumno de la tabla y editar su información directamente desde la interfaz.
+
+
+### Validaciones
+Validaciones de campo vacios 
+Evitar la insercion de registros duplicados 
+
+### Acceso a Datos 
+La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion**. Las operaciones CRUDse implementan en la clase **Alumno**, que incluye:
+- **insertAlumno()** : Insertar un nuevo alumno. 
+- **mostrarAlumno()** : Muestra los alumnos registrados. 
+- **seleccionarAlumno()** : Selecciona un alumno para editar.
+- **modificarAlumno()** : Modifica un registro existente.
+- **eliminarAlumno()** : Eliminar un registro.
+
+### Subida del Proyecto a GitHub
+
+**Organizacion del Reprositorio**
+El repositorio debe contener la siguiente estructura:
+
+├── src/
+│   ├── CONEXION/                        
+│   ├── DAO/                              
+│   ├── GUI/                              
+│   └── proyecto4toparcial_paola_reino/   
+├── resources/
+│   └── diagrama_modelo_logico.png        
+├── README.md                             
+└── script.sql                            
 
 ### **Recursos Utilizados:**
 - MySQL
