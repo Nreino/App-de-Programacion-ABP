@@ -53,7 +53,7 @@
 
 ---
 
-## 🔧 Script del modelo físico 
+### Script del modelo físico 
 sql
 CREATE DATABASE escueladb;
 USE escueladb;
