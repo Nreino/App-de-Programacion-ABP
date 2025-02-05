@@ -51,7 +51,8 @@
 
 
 
-### Script del modelo físico 
+### Script del modelo físico
+```sql
 CREATE DATABASE escueladb;
 USE escueladb;
 
@@ -75,6 +76,7 @@ VALUES
 ('Juan Carlos', 'Sayay Morante', '0945466328', 'jeanc2008@gmail.com', '2008-12-24', 0),
 ('Xavier Fernando', 'Peñafiel López', '0954356729', 'xavie2008@gmail.com', '2008-04-23', 0),
 ('Miguel Angel', 'Suarez Calle', '0926567789', 'mian2008@gmail.com', '2008-01-01', 0);
+```
 
 
 
