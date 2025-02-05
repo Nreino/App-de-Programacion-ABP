@@ -30,7 +30,9 @@
    - Implementación de operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) para el manejo de los datos.
 
 ### 🗂️ **Diagrama del Modelo Lógico**
-(Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.)
+*Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.*
+
+---
 
 ### 📝 **Tabla: alumnos**
 
@@ -44,14 +46,15 @@
 | `fechaNacimiento` | `DATE`              | Fecha de nacimiento del alumno.                               |
 | `ruta_id`         | `INT`               | Identificador de la ruta asignada al alumno.                  |
 
-**Restricciones:**
+#### **Restricciones:**
 - `id`: Clave primaria.
 - `cedula` y `correo`: Campos únicos.
 - `ruta_id`: Clave foránea que referencia a la tabla `rutas`.
 
+---
 
+### 🔧 **Script del modelo físico**
 
-### Script del modelo físico 
 ```sql
 CREATE DATABASE escueladb;
 USE escueladb;
@@ -82,61 +85,5 @@ ALTER TABLE alumnos DROP INDEX correo;
 UPDATE alumnos 
 SET nombres = 'NuevoNombre', apellidos = 'NuevoApellido', cedula = '1234567890', correo = 'nuevoemail@gmail.com', fechaNacimiento = '2000-01-01' 
 WHERE id = 1;
-```
 
-
-
-### 🖥️ **Aplicación Java con JFrame**
-
-La aplicación cuenta con una interfaz gráfica desarrollada con **JFrame**, que permite a los usuarios realizar diversas operaciones relacionadas con los alumnos.
-
-#### **Diseño de Interfaz**
-
-La interfaz incluye las siguientes funcionalidades:
-
-- **Registro, modificación y eliminación de alumnos**: El usuario puede agregar nuevos alumnos, actualizar información existente y eliminar registros de alumnos.
-- **Visualización de los registros en una tabla**: Los datos de los alumnos se muestran de forma organizada en una tabla dentro de la interfaz.
-- **Selección y edición de alumnos**: El usuario puede seleccionar un alumno de la tabla y editar su información directamente desde la interfaz.
-
-
-### Validaciones
-Validaciones de campo vacios 
-Evitar la insercion de registros duplicados 
-
-### Acceso a Datos 
-La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion**. Las operaciones CRUDse implementan en la clase **Alumno**, que incluye:
-- **insertAlumno()** : Insertar un nuevo alumno. 
-- **mostrarAlumno()** : Muestra los alumnos registrados. 
-- **seleccionarAlumno()** : Selecciona un alumno para editar.
-- **modificarAlumno()** : Modifica un registro existente.
-- **eliminarAlumno()** : Eliminar un registro.
-
-### Subida del Proyecto a GitHub
-
-**Organizacion del Reprositorio**
-El repositorio debe contener la siguiente estructura:
-
-├── src/
-│   ├── CONEXION/                        
-│   ├── DAO/                              
-│   ├── GUI/                              
-│   └── proyecto4toparcial_paola_reino/   
-├── resources/
-│   └── diagrama_modelo_logico.png        
-├── README.md                             
-└── script.sql                            
-
-### **Recursos Utilizados:**
-- MySQL
-- Java Swing
-- JDBC
-
-#### **Integrantes:**
-- **Reino**
-- **Salavarria**
-- **Mantilla**
-
-#### **Curso:**
-- **2do Informática "A"**
-  
   
