@@ -80,9 +80,15 @@ VALUES
 ('Xavier Fernando', 'Peñafiel López', '0954356729', 'xavie2008@gmail.com', '2008-04-23', 0),
 ('Miguel Angel', 'Suarez Calle', '0926567789', 'mian2008@gmail.com', '2008-01-01', 0);
 
-ALTER TABLE alumnos DROP INDEX correo;
+### **Recursos Utilizados:**
+- MySQL
+- Java Swing
+- JDBC
 
-UPDATE alumnos 
-SET nombres = 'NuevoNombre', apellidos = 'NuevoApellido', cedula = '1234567890', correo = 'nuevoemail@gmail.com', fechaNacimiento = '2000-01-01' 
-WHERE id = 1;
+#### **Integrantes:**
+- **Reino**
+- **Salavarria**
+- **Mantilla**
 
+#### **Curso:**
+- **2do Informática "A"**
