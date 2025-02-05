@@ -116,7 +116,6 @@ La aplicacion se conecta a una base de datos MySQL mediante la clase **conexion*
 **Organizacion del Reprositorio**
 El repositorio debe contener la siguiente estructura:
 
-
 ├── src/
 │   ├── CONEXION/                        
 │   ├── DAO/                              
