@@ -30,31 +30,28 @@
    - Implementación de operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar) para el manejo de los datos.
 
 ### 🗂️ **Diagrama del Modelo Lógico**
-*Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.*
-
----
+(Se incluye el diagrama del modelo relacional, el cual puede proporcionar una visión más clara sobre las relaciones entre las entidades en el sistema.)
 
 ### 📝 **Tabla: alumnos**
 
 | **Campo**         | **Tipo de Dato**    | **Descripción**                                              |
 |-------------------|---------------------|--------------------------------------------------------------|
-| `id`              | `INT AUTO_INCREMENT PRIMARY KEY` | Identificador único de cada alumno.                           |
-| `nombres`         | `VARCHAR(100)`      | Nombres del alumno.                                           |
-| `apellidos`       | `VARCHAR(100)`      | Apellidos del alumno.                                         |
-| `cedula`          | `VARCHAR(10)`       | Número único de identificación del alumno.                   |
-| `correo`          | `VARCHAR(100)`      | Correo electrónico único del alumno.                          |
-| `fechaNacimiento` | `DATE`              | Fecha de nacimiento del alumno.                               |
-| `ruta_id`         | `INT`               | Identificador de la ruta asignada al alumno.                  |
+| id              | INT AUTO_INCREMENT PRIMARY KEY | Identificador único de cada alumno.                           |
+| nombres         | VARCHAR(100)      | Nombres del alumno.                                           |
+| apellidos       | VARCHAR(100)      | Apellidos del alumno.                                         |
+| cedula          | VARCHAR(10)       | Número único de identificación del alumno.                   |
+| correo          | VARCHAR(100)      | Correo electrónico único del alumno.                          |
+| fechaNacimiento | DATE              | Fecha de nacimiento del alumno.                               |
+| ruta_id         | INT               | Identificador de la ruta asignada al alumno.                  |
 
-#### **Restricciones:**
-- `id`: Clave primaria.
-- `cedula` y `correo`: Campos únicos.
-- `ruta_id`: Clave foránea que referencia a la tabla `rutas`.
+**Restricciones:**
+- id: Clave primaria.
+- cedula y correo: Campos únicos.
+- ruta_id: Clave foránea que referencia a la tabla rutas.
 
----
+
 
 ### Script del modelo físico 
-sql
 CREATE DATABASE escueladb;
 USE escueladb;
 
@@ -72,19 +69,12 @@ INSERT INTO alumnos (nombres, apellidos, cedula, correo, fechaNacimiento, ruta_i
 VALUES 
 ('Carlos Alberto', 'Bonilla Cantos', '0985656789', 'calberto2008@gmail.com', '2008-05-11', 0),
 ('Juan Jose', 'Rivas Coronel', '0943467789', 'Jose2008@gmail.com', '2008-07-12', 0),
-('Carlos Alberto', 'Jeshua Haro', '0945656712', 'jeshua2008@gmail.com', '2008-11-23', 0),
+('Carlos Alberto', 'Jeshua Haro', '0945656712', 'calberto2008@gmail.com', '2008-11-23', 0),
 ('Miriam Alexandra', 'Bonilla Cantos', '0944386789', 'mixi1991@gmail.com', '2007-01-11', 0),
 ('Estiven Eduardo', 'Ramirez Valdéz', '0945467712', 'eduard2008@gmail.com', '2007-12-12', 0),
 ('Juan Carlos', 'Sayay Morante', '0945466328', 'jeanc2008@gmail.com', '2008-12-24', 0),
 ('Xavier Fernando', 'Peñafiel López', '0954356729', 'xavie2008@gmail.com', '2008-04-23', 0),
 ('Miguel Angel', 'Suarez Calle', '0926567789', 'mian2008@gmail.com', '2008-01-01', 0);
-
-ALTER TABLE alumnos DROP INDEX correo;
-
-UPDATE alumnos 
-SET nombres = 'NuevoNombre', apellidos = 'NuevoApellido', cedula = '1234567890', correo = 'nuevoemail@gmail.com', fechaNacimiento = '2000-01-01' 
-WHERE id = 1;
-
 
 
 
@@ -139,4 +129,5 @@ El repositorio debe contener la siguiente estructura:
 - **Mantilla**
 
 #### **Curso:**
+- **2do Informática "A"**
 - **2do Informática "A"**
