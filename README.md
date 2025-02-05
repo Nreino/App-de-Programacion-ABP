@@ -52,7 +52,8 @@
 
 
 ### Script del modelo físico 
-[UploaCREATE DATABASE escueladb;
+```sql
+CREATE DATABASE escueladb;
 USE escueladb;
 
 CREATE TABLE alumnos (
@@ -77,11 +78,11 @@ VALUES
 ('Miguel Angel', 'Suarez Calle', '0926567789', 'mian2008@gmail.com', '2008-01-01', 0);
 
 ALTER TABLE alumnos DROP INDEX correo;
+
 UPDATE alumnos 
 SET nombres = 'NuevoNombre', apellidos = 'NuevoApellido', cedula = '1234567890', correo = 'nuevoemail@gmail.com', fechaNacimiento = '2000-01-01' 
 WHERE id = 1;
-
-ding dbescuela.sql…]()
+```
 
 
 
