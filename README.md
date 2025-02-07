@@ -132,4 +132,3 @@ El repositorio debe contener la siguiente estructura:
 
 #### **Curso:**
 - **2do Informática "A"**
-- **2do Informática "A"**
